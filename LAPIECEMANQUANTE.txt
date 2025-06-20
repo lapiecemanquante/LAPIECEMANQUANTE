@@ -1,0 +1,103 @@
+<!DOCTYPE html><html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>La Pièce Manquante</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #fdfaf6;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #3e3b3b;
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    nav {
+      background-color: #d6a760;
+      display: flex;
+      justify-content: center;
+      padding: 0.5rem 0;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 1rem;
+      font-weight: bold;
+    }
+    section {
+      padding: 2rem 1rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    .hero {
+      background-color: #f0e6d2;
+      padding: 2rem;
+      border-radius: 8px;
+      margin-bottom: 2rem;
+      text-align: center;
+    }
+    .hero h2 {
+      margin-bottom: 1rem;
+    }
+    footer {
+      background-color: #3e3b3b;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+    .button {
+      background-color: #d6a760;
+      color: white;
+      padding: 0.8rem 1.2rem;
+      border: none;
+      border-radius: 4px;
+      font-size: 1rem;
+      cursor: pointer;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>La Pièce Manquante</h1>
+    <p>Expertise & Recherche d'Objets d'Occasion</p>
+  </header>
+  <nav>
+    <a href="#services">Services</a>
+    <a href="#offre">Offre de lancement</a>
+    <a href="#contact">Contact</a>
+  </nav> <section class="hero">
+    <h2>Vous cherchez un objet rare ou à estimer ?</h2>
+    <p>Nous vous accompagnons dans la recherche, l'estimation et la valorisation de vos objets d'occasion, vintage et de collection.</p>
+    <a class="button" href="#contact">Demander une expertise</a>
+  </section> <section id="services">
+    <h2>Nos Services</h2>
+    <ul>
+      <li>🔍 Expertise d'objets (en ligne)</li>
+      <li>🕵️ Recherche personnalisée d'objets</li>
+      <li>📄 Rapport PDF d'estimation</li>
+      <li>🤝 Accompagnement à la revente</li>
+    </ul>
+  </section> <section id="offre">
+    <h2>Offre de Lancement</h2>
+    <p>Profitez de <strong>-50% sur votre première expertise</strong> jusqu'au 30 juin 2025 !</p>
+  </section> <section id="contact">
+    <h2>Contact</h2>
+    <p>📧 Email : lapiecemanquante5@gmail.com</p>
+    <p>📱 Téléphone : 06 99 67 01 38</p>
+    <p>📍 Basé en France </p>
+  </section> <footer>
+    <p>&copy; 2025 La Pièce Manquante - Tous droits réservés</p>
+  </footer>
+</body>
+</html>
